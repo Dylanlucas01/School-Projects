@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ImprovedWanderer
+comment1.params=x\ y
+comment1.target=ImprovedWanderer(double,\ double)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ stand()
+comment4.params=dir
+comment4.target=void\ faceDirection(int)
+numComments=5

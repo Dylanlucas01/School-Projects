@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CircleViewer
+comment1.params=myCircles
+comment1.target=CircleViewer(Circle[])
+comment2.params=c
+comment2.target=void\ paintWindow(sacco.Canvas)
+comment3.params=can\ circ
+comment3.target=void\ paintCircle(sacco.Canvas,\ Circle)
+comment4.params=
+comment4.target=void\ main()
+comment5.params=m
+comment5.target=void\ onMousePress(sacco.MouseEvent)
+numComments=6

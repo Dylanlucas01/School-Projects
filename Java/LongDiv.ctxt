@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LongDiv
+comment1.params=
+comment1.target=void\ main()
+comment2.params=prompt
+comment2.target=int\ getIntFromUser(java.lang.String)
+numComments=3
