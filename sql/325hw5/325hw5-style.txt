@@ -1,0 +1,24 @@
+325hw5 Problem 1
+Name: Dylan Lucas
+Date: 11-4-2023
+
+1 part a:
+SQL style standards for SELECT statements ORDER BY clause 
+is to only use an ORDER BY clause for an outermost SELECT,
+it can not be within any sub-select, and its clear that 
+it belongs to the outermost SELECT.
+
+1 part b:
+SQL style standards for SELECT statements GROUP BY clause
+is to only use a GROUP BY clause when there is good reason.
+Usually when there are one or more aggregate functions.
+
+1 part c:
+SQL style standards for nested SELECT statements
+Each nested SELECT statement must be surrounded
+by a set of parentheses ( ).
+
+1 part d:
+SQL style standards for EXISTS and NOT EXISTS predicates
+- It is EXPECTED to include an appropriate correlation condition in its sub-select argument.
+- It is EXPECTED to project a literal in its sub-select argument.

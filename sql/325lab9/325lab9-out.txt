@@ -1,0 +1,92 @@
+Name: Dylan Lucas
+Date: 10-20-2023
+lab query 1
+
+EMPL_LAST_NAME  JOB_TITLE  HIREDATE                                             
+--------------- ---------- ---------                                            
+Adams           Clerk      23-SEP-18                                            
+Ford            Analyst    03-DEC-12                                            
+Jones           Manager    02-APR-12                                            
+Martin          Sales      28-SEP-18                                            
+Michaels        Sales      20-FEB-18                                            
+Scott           Analyst    09-NOV-18                                            
+Smith           Clerk      17-DEC-12                                            
+Turner          Sales      08-SEP-19                                            
+Ward            Sales      22-FEB-19                                            
+
+9 rows selected.
+
+lab query 2
+
+CUST_FNAME      CUST_LNAME           CUST_BALANCE                               
+--------------- -------------------- ------------                               
+First           Firstly                   1111.11                               
+Second          Secondly                    222.2                               
+Third           Thirdly                         0                               
+
+lab query 3
+
+EMPL_LAST_NAME  Total Recompense                                                
+--------------- ----------------                                                
+Adams                       1100                                                
+Blake                       2850                                                
+Ford                        3000                                                
+James                        950                                                
+Jones                       2975                                                
+King                        5000                                                
+Martin                      2650                                                
+Michaels                    1900                                                
+Miller                      1300                                                
+Raimi                       2450                                                
+Scott                       3000                                                
+
+EMPL_LAST_NAME  Total Recompense                                                
+--------------- ----------------                                                
+Smith                        800                                                
+Turner                      1500                                                
+Ward                        1750                                                
+
+14 rows selected.
+
+lab query 4
+Enter value for department_name: 'Research'
+old   4: and dept_name = &department_name
+new   4: and dept_name = 'Research'
+
+EMPL_LAST_NAME  JOB_TITLE                                                       
+--------------- ----------                                                      
+Jones           Manager                                                         
+Ford            Analyst                                                         
+Smith           Clerk                                                           
+Scott           Analyst                                                         
+
+lab query 5
+Enter value for work_title: 'Sales'
+old   4: and job_title = &work_title
+new   4: and job_title = 'Sales'
+
+CUST_FNAME      CUST_LNAME                                                      
+--------------- --------------------                                            
+First           Firstly                                                         
+Second          Secondly                                                        
+Third           Thirdly                                                         
+
+lab query 6
+
+project empl last name, job title and salary amount greater than or equal to
+what the user inserts for employees that are  managers
+and then union that with the same thing for employees in sale
+Enter value for salary_gtr_than: 2500
+old   4: and salary >= &salary_gtr_than)
+new   4: and salary >= 2500)
+Enter value for salary_gtr_than: 1500
+old   9: and salary >= &salary_gtr_than)
+new   9: and salary >= 1500)
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY                                           
+--------------- ---------- ----------                                           
+Blake           Manager          2850                                           
+Jones           Manager          2975                                           
+Michaels        Sales            1600                                           
+Turner          Sales            1500                                           
+

@@ -1,0 +1,84 @@
+Name: Dylan Lucas
+Date: 10-13-2023
+lab query 1
+
+EMPL_LAST_NAME  HIREDATE                                                        
+--------------- ---------                                                       
+Jones           02-APR-12                                                       
+Blake           01-MAY-13                                                       
+
+lab query 2
+
+HIREDATE                                                                        
+---------                                                                       
+17-NOV-11                                                                       
+09-JUN-12                                                                       
+23-JAN-16                                                                       
+
+lab query 3
+
+EMPL_LAST_NAME  HIREDATE                                                        
+--------------- ---------                                                       
+Michaels        20-FEB-18                                                       
+Ward            22-FEB-19                                                       
+Martin          28-SEP-18                                                       
+Scott           09-NOV-18                                                       
+Turner          08-SEP-19                                                       
+Adams           23-SEP-18                                                       
+James           03-DEC-17                                                       
+Miller          23-JAN-16                                                       
+
+8 rows selected.
+
+lab query 4
+
+Employee        Department (Location)                                           
+--------------- ---------------------------------                               
+King            Management (New York)                                           
+Jones           Research (Dallas)                                               
+Blake           Sales (Chicago)                                                 
+Raimi           Accounting (New York)                                           
+Ford            Research (Dallas)                                               
+Smith           Research (Dallas)                                               
+Michaels        Sales (Chicago)                                                 
+Ward            Sales (Chicago)                                                 
+Martin          Sales (Chicago)                                                 
+Scott           Research (Dallas)                                               
+Turner          Sales (Chicago)                                                 
+
+Employee        Department (Location)                                           
+--------------- ---------------------------------                               
+Adams           Operations (Boston)                                             
+James           Sales (Chicago)                                                 
+Miller          Accounting (New York)                                           
+
+14 rows selected.
+
+lab query 5
+
+DEPT_NAME                                                                       
+---------------                                                                 
+Research                                                                        
+Management                                                                      
+
+lab query 6
+
+EMPL_LAST_NAME                                                                  
+---------------                                                                 
+Ward                                                                            
+Turner                                                                          
+
+lab query 7
+show employees last names with their job title concatonated whos salary is more than 2000
+
+Employee (Position)                                                             
+----------------------------                                                    
+King (President)                                                                
+Jones (Manager)                                                                 
+Blake (Manager)                                                                 
+Raimi (Manager)                                                                 
+Ford (Analyst)                                                                  
+Scott (Analyst)                                                                 
+
+6 rows selected.
+

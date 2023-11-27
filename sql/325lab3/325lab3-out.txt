@@ -1,0 +1,31 @@
+Name: Dylan Lucas
+Date: 9-8-2023
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+  PART_NUM PART_NAME                 QUANTITY_ON_HAND      PRICE LEV LAST_INSP  
+---------- ------------------------- ---------------- ---------- --- ---------  
+     10603 hexagonal wrench                        13       9.99 XXX 15-AUG-21  
+     10604 tire                                   287      39.99 MMM 08-SEP-23  
+     10605 bubble gum                                     876.54                
+     12345 light                                    4      24.99 XXX 08-AUG-23  
+
+
+ORDER_ CUST_NUM   PART_NUM ORDER_DAT   QUANTITY O D                             
+------ -------- ---------- --------- ---------- - -                             
+111111 11111111      10603 08-SEP-23          3 B U                             
+222222 22222222      10604 01-SEP-20          4 I P                             
+333333 33333333      12345 08-SEP-23          4 B U                             
+444444 44444444      12345 08-SEP-23          5 I F                             
+555555 55555555      12345 08-SEP-23          6 G P                             
+

@@ -1,0 +1,21 @@
+Dylan Lucas
+
+CS 325 - Lab 3 - Problem 2
+
+create table Painter
+(ptr_num integer,
+ptr_lname varchar2(25),
+ptr_fname varchar2(25),
+ptr_dob date,
+ptr_dod date,
+primary key (ptr_num)
+);
+
+create table Painting
+(painting_num integer,
+painting_title varchar2(25),
+ptg_year integer,
+ptr_num integer,
+primary key (painting_num),
+foreign key (prt_num) references Painter
+);

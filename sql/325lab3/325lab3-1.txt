@@ -1,0 +1,7 @@
+Dylan Lucas
+
+CS 325 - Lab 3 - Problem 1
+
+Painter(prt_num, ptr_lname, ptr_fname, ptr_dob, ptr_dod)
+
+Painting(painting_num, painting_title, ptg_year, ptr_num)

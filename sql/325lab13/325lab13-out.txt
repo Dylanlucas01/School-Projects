@@ -1,0 +1,104 @@
+Name: Dylan Lucas
+Date: 11-17-2023
+lab problem 1
+
+View dropped.
+
+
+View created.
+
+lab problem 2
+
+EMPL_LAST_NAME      SALARY                                                      
+--------------- ----------                                                      
+King                  5000                                                      
+Jones                 2975                                                      
+Blake                 2850                                                      
+Raimi                 2450                                                      
+Ford                  3000                                                      
+Smith                  800                                                      
+Michaels              1600                                                      
+Ward                  1250                                                      
+Martin                1250                                                      
+Scott                 3000                                                      
+Turner                1500                                                      
+
+EMPL_LAST_NAME      SALARY                                                      
+--------------- ----------                                                      
+Adams                 1100                                                      
+James                  950                                                      
+Miller                1300                                                      
+
+14 rows selected.
+
+lab problem 3
+
+MAX(SALARY)                                                                     
+-----------                                                                     
+       5000                                                                     
+
+lab problem 4
+
+View dropped.
+
+
+View created.
+
+lab problem 5
+
+JOB_TITLE  EARLIEST_                                                            
+---------- ---------                                                            
+Manager    02-APR-12                                                            
+Analyst    03-DEC-12                                                            
+Clerk      17-DEC-12                                                            
+President  17-NOV-11                                                            
+Sales      20-FEB-18                                                            
+
+lab problem 6
+
+MAX(EARLI                                                                       
+---------                                                                       
+20-FEB-18                                                                       
+
+lab problem 7
+
+View dropped.
+
+
+View created.
+
+lab problem 8
+
+CUSTOMER                              REPD_BY         DEPT_LOC                  
+------------------------------------- --------------- ---------------           
+Firstly, First                        Michaels        Chicago                   
+Secondly, Second                      Martin          Chicago                   
+Thirdly, Third                        Michaels        Chicago                   
+
+lab problem 9
+project the job title and hiredate of the most recent hire from each department
+drop view latest_hires
+*
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+select job_title, max(hiredate) as latest_hire_date
+       *
+ERROR at line 2:
+ORA-00979: not a GROUP BY expression 
+
+
+from latest_hires
+     *
+ERROR at line 2:
+ORA-00942: table or view does not exist 
+
+
+project just the latest minimum hire date for any department
+from latest_hires
+     *
+ERROR at line 2:
+ORA-00942: table or view does not exist 
+
+

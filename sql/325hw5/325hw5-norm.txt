@@ -1,0 +1,33 @@
+325hw5 Problem 2
+Name: Dylan Lucas
+Date: 11-4-2023
+
+2 part a:
+Convert this into first normal form (1NF), writing the resulting relation(s) in relation-structure form. 
+
+Choc_Bar_Type(BAR_ID, bar_brand, bar_name, bar_cacao_pct)
+
+Bar_sizes(BAR_ID, BAR_SIZE_AVLBL)
+    foreign key (bar_id) references choc_bar_type
+
+
+2 part b:
+Convert this into second normal form (2NF), writing the resulting relation(s) in relation-structure form. 
+
+Student(STU_ID, stu_lname, stu_primary_email)
+
+Course(COURSE_SECT_ID, course_num, course_name, course_num_units)
+
+Stu_Course_Reg(STU_ID, COURSE_SECT_ID, reg_date, final_grade)
+    foreign key (stu_id) references student,
+    foreign key (course_sect_id) references course
+
+
+2 part c:
+Convert this into third normal form (3NF), writing the resulting relation(s) in relation-structure form.
+
+Music_Period(MUSIC_PERIOD_ID, music_period_name, music_period_year_begins)
+
+Symphony(SYMPH_ID, symph_title, symph_year_completed, composer_id, music_period_id) 
+    foreign key (composer_id) references Composer,
+    foreign key (music_period_id) references music_period 
